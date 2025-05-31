@@ -1,6 +1,6 @@
 #!/bin/bash
-MAX_PLAYERS=$MAX_PLAYERS
-Slots=$MAX_PLAYERS
+export MAX_PLAYERS=$MAX_PLAYERS
+export Slots=$MAX_PLAYERS
 
 
 if [ "$PLATFORM" = "windows" ]; then

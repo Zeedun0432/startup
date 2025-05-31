@@ -2,7 +2,6 @@
 export MAX_PLAYERS=$MAX_PLAYERS
 export Slots=$MAX_PLAYERS
 
-
 if [ "$PLATFORM" = "windows" ]; then
   echo "Running via wine64 (windows platform) with max players $MAX_PLAYERS"
   wine64 ./samp-server.exe
